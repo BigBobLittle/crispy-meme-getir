@@ -1,5 +1,5 @@
 const startApp = require("./app");
 
-startApp.listen(process.env.port || 3900, () => {
+startApp.listen(process.env.PORT || 3900, () => {
   console.log("started");
 });
