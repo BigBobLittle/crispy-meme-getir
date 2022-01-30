@@ -8,3 +8,14 @@ Content-Type: application/json
      "minCount": 2700,
      "maxCount": 3000
    }
+
+### 
+POST https://gitir.herokuapp.com
+Content-Type: application/json
+
+  {
+    "endDatea": "2017-01-28",
+     "startDate": "2016-11-27",
+     "minCount": 2700,
+     "maxCount": 3000
+   }
