@@ -1,0 +1,22 @@
+{
+  "name": "getir",
+  "version": "1.0.0",
+  "description": "getir test",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "npx jest",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "supertest": "^6.2.2"
+  }
+}

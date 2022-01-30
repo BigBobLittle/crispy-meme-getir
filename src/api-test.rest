@@ -1,0 +1,10 @@
+
+POST http://localhost:3000
+Content-Type: application/json
+
+  {
+    "endDate": "2017-01-28",
+     "startDate": "2016-11-27",
+     "minCount": 2700,
+     "maxCount": 3000
+   }
